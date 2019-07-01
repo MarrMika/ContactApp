@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+                <item
+                    android:id="@+id/item_Call"
+                    android:icon="@drawable/ic_call"
+                    android:title="Call"
+                    />
+                <item
+                    android:id="@+id/item_Add"
+                    android:icon="@drawable/add_contact"
+                    android:title="Add"
+                    />
+                <item
+                    android:id="@+id/item_Edit"
+                    android:icon="@drawable/edit"
+                    android:title="Edit"
+                    />
+                <item
+                    android:id="@+id/item_Delete"
+                    android:icon="@drawable/delete"
+                    android:title="Delete"
+                    />
+                <item
+                    android:id="@+id/item_SendMessage"
+                    android:icon="@drawable/message"
+                    android:title="Send Message"
+                    />
+                <item
+                    android:id="@+id/item_Setting"
+                    android:icon="@drawable/setting"
+                    android:title="Setting"
+                    />
+
+</menu>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="140dp"
+        android:text="Message:"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+        <TextView
+        android:id="@+id/textViewKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="40dp"
+        android:text="Key:"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextKey"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:inputType="textCapSentences|textMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextToEncode"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:inputType="textCapSentences|textMultiLine"
+        android:text="  write message here..."
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editTextDecode"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:inputType="textCapSentences|textMultiLine" />
+
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="300dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="330dp"
+            android:ems="10"
+            android:inputType="textCapSentences|textMultiLine" />
+
+    <Button
+        android:id="@+id/btnEncode"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Encode SMS"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnDecode"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Decode SMS"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/btnSend"
+        android:layout_width="69dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Send SMS"
+        android:textStyle="bold|italic"
+        app:srcCompat="@drawable/ic_send_black_24dp" />
+
+
+    <ImageView
+        android:id="@+id/btnGoBack"
+        android:layout_width="96dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-black"
+        android:text="-"
+        android:textSize="36sp"
+        app:srcCompat="@drawable/ic_undo_black_24dp" />
+
+
+</RelativeLayout>
