@@ -5,12 +5,12 @@ import android.icu.util.Calendar;
 import android.os.Build;
 
 public class Contact {
-    int id;
-    byte[] imageContact;
-    String name;
-    String phone;
-    String birthday;
-    String description;
+    private int id;
+    private byte[] imageContact;
+    private String name;
+    private String phone;
+    private String birthday;
+    private String description;
 
     public Contact(int id,byte[] imageContact, String name, String phone,String birthday,String description) {
         this.id=id;
